@@ -874,12 +874,14 @@ nx g &#64;nx/angular:component ui/src/lib/button</pre>
               </svg>
               Run affected commands
             </summary>
-            <pre><span># see what&apos;s been affected by changes</span>
-nx affected:graph
-<span># run tests for current changes</span>
-nx affected:test
-<span># run e2e tests for current changes</span>
-nx affected:e2e</pre>
+            <pre>
+              <span># see what&apos;s been affected by changes</span>
+              nx affected:graph
+              <span># run tests for current changes</span>
+              nx affected:test
+              <span># run e2e tests for current changes</span>
+              nx affected:e2e
+            </pre>
           </details>
         </div>
         <p id="love">
