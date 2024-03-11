@@ -7,10 +7,10 @@ export default defineConfig({
     ...nxE2EPreset(__filename, {
       cypressDir: 'src',
       webServerCommands: {
-        default: 'nx run myngapp:serve:development',
-        production: 'nx run myngapp:serve:production',
+        default: 'nx run ker1n:serve:development',
+        production: 'nx run ker1n:serve:production',
       },
-      ciWebServerCommand: 'nx run myngapp:serve-static',
+      ciWebServerCommand: 'nx run ker1n:serve-static',
     }),
     baseUrl: 'http://localhost:4200',
   },
