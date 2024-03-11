@@ -1,0 +1,9 @@
+{
+  "name": "test lib",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "test lib/src",
+  "prefix": "ker1n",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}
